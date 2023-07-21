@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: white;
+    overflow-x: hidden;
+  }
+  
+  header {
+    display: flex;
+    position: fixed;
+    background-color: #3e3c3c;
+    width: 100%;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+  }
+  
+  header .logo {
+    margin: 0 5vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #logo {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #logo:hover {
+    color: #ffb116;
+  }
+  
+  #logo:active {
+    color: #e25e00;
+  }
+  
+  .logo:hover {
+    transform: rotate(4deg);
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-right: 10px;
+    margin-top: 1vh;
+    padding: 0;
+  }
+  
+  .hamburger img {
+    width: 6vw;
+    height: auto;
+  }
+  
+  .headline {
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1a19;
+    height: 691.2px;
+    justify-content: center;
+    padding: 0 6.5vw 0 6.5vw;
+    background-image: url("img/illustration-background.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 110%;
+  }
+  
+  .headline h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 3.8em;
+    font-weight: 400;
+    color: #f55800;
+    margin: 6px;
+  }
+  
+  .headline h2 {
+    font-family: 'Roboto', sans-serif;
+    margin: 6px;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #fff5e1;
+  }
+  
+  .headline p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 6px;
+    color: #fff;
+  }
