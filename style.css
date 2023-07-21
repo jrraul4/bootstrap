@@ -1,9 +1,9 @@
 body {
-    margin: 0;
-    background-color: white;
-    overflow-x: hidden;
+  margin: 0;
+  background-color: white;
+  overflow-x: hidden;
   }
-  
+
   header {
     display: flex;
     position: fixed;
@@ -14,7 +14,7 @@ body {
     align-items: center;
   }
   
-  header .logo {
+header .logo {
     margin: 0 5vw;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -23,28 +23,28 @@ body {
     cursor: pointer;
   }
   
-  #logo {
+#logo {
     text-decoration: none;
     color: #fff;
   }
   
-  #logo:hover {
+#logo:hover {
     color: #ffb116;
   }
   
-  #logo:active {
+#logo:active {
     color: #e25e00;
   }
   
-  .logo:hover {
+.logo:hover {
     transform: rotate(4deg);
   }
   
-  a {
+a {
     cursor: pointer;
   }
   
-  .hamburger {
+.hamburger {
     cursor: pointer;
     background: none;
     border: none;
@@ -53,12 +53,12 @@ body {
     padding: 0;
   }
   
-  .hamburger img {
+.hamburger img {
     width: 6vw;
     height: auto;
   }
   
-  .headline {
+.headline {
     display: flex;
     flex-direction: column;
     background-color: #1c1a19;
@@ -71,7 +71,7 @@ body {
     background-position-y: 110%;
   }
   
-  .headline h1 {
+.headline h1 {
     font-family: 'Crete Round', serif;
     font-size: 3.8em;
     font-weight: 400;
@@ -79,7 +79,7 @@ body {
     margin: 6px;
   }
   
-  .headline h2 {
+.headline h2 {
     font-family: 'Roboto', sans-serif;
     margin: 6px;
     font-size: 1.6em;
@@ -87,7 +87,7 @@ body {
     color: #fff5e1;
   }
   
-  .headline p {
+.headline p {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
